@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+}
+.btn  {
+  border-radius: 20px;
+  width: 60px;
+}
+.btn--on  {
+  background-color: lightgreen;
+  justify-content: flex-start;
+}
+.btn--off {
+  background-color: lightcoral;
+  justify-content: flex-end;
+}
+.btn > div { 
+  background-color: #fff;
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
